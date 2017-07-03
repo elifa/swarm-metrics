@@ -1,0 +1,23 @@
+{
+  "name": "swarm-aws-metrics",
+  "version": "1.0.0",
+  "description": "Metric publisher for AWS that publishes metrics to CloudWatch based on data from `docker stats`.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elifa/swarm-metrics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elifa/swarm-metrics/issues"
+  },
+  "homepage": "https://github.com/elifa/swarm-metrics#readme",
+  "dependencies": {
+    "aws-sdk": "^2.95.0"
+  }
+}
