@@ -1,6 +1,6 @@
 {
   "name": "swarm-aws-metrics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Metric publisher for AWS that publishes metrics to CloudWatch based on data from `docker stats`.",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/elifa/swarm-metrics#readme",
   "dependencies": {
-    "aws-sdk": "^2.95.0"
+    "aws-sdk": "^2.569.0"
   }
 }
