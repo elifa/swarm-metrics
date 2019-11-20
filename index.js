@@ -80,7 +80,7 @@ function biValue(rawValue) {
 
 function byteValue(rawValue) {
     const order = ["B", "kB", "MB", "GB", "TB", "PB"];
-    const parts = /^([d.]*)s?([kmgtpKMGTP]?[Bb])$/.exec(rawValue);
+    const parts = /^([\d.]*)s?([kmgtpKMGTP]?[Bb])$/.exec(rawValue);
 
     if (parts == null || parts.length < 3) {
         return 0;
