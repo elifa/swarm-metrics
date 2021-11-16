@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/elifa/swarm-metrics#readme",
   "dependencies": {
-    "aws-sdk": "^2.569.0"
+    "aws-sdk": "^2.814.0"
   }
 }
